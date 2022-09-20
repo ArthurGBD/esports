@@ -10,7 +10,7 @@ import {
 
 // import { Home } from "./src/screens/Home";
 
-import { Home } from "./src/screens/Home";
+import { Routes } from "./src/routes";
 
 import { Background } from "./src/componentes/Background";
 import { Loading } from "./src/componentes/Loading";
@@ -30,7 +30,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-      { fontsLoaded ? <Home /> : <Loading /> }
+      { fontsLoaded ? <Routes /> : <Loading /> }
 
     </Background>
   );
